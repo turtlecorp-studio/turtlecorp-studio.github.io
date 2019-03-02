@@ -138,17 +138,40 @@ html, body {
    flex-wrap: wrap;
  }
 
- pagelogo {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  margin: auto;
-
+@font-face {
+  font-family: TravelingTypewriter;
+  src: url('TravelingTypewriter.ttf');
+}
+@font-face {
+  font-family: typecast;
+  src: url('Typecast.ttf');
 }
 
-warsruinlogo {
-  justify-content: center;
-  align-content: center;
+ .warsruinlogo {
+  float: left;
+  display:flex;
+}
+
+.aboutpara {
+  float: right;
+  padding-right: 180px;
+  padding-top: 40px;
+  width: 350px;
+  font-family: typecast;
+font-style: normal;
+/*    font-family: 'Allerta Stencil';
+font-family: 'ZCOOL QingKe HuangYou', cursive; */
+  font-size: 20px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
 
  .wrapper {
