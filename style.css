@@ -164,12 +164,19 @@ font-family: 'ZCOOL QingKe HuangYou', cursive; */
   font-size: 20px;
 }
 
+.hoverlink:hover {
+  color: pink;
+}
+
 .footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: red;
+  font-family: typecast;
+font-style: normal;
+  font-size: 22px;
   color: white;
   text-align: center;
 }
