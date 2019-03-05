@@ -158,11 +158,17 @@ html, body {
   padding-top: 40px;
   width: 350px;
   font-family: typecast;
-font-style: normal;
+	font-style: normal;
 /*    font-family: 'Allerta Stencil';
 font-family: 'ZCOOL QingKe HuangYou', cursive; */
   font-size: 20px;
 }
+
+.entry1 {
+	border: 1px solid red;	
+	padding-bottom: 300px;
+}
+
 
 .hoverlink:hover {
   color: pink;
